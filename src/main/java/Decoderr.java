@@ -14,7 +14,7 @@ public class Decoderr {
         char[] text = strTextForDecoding.toLowerCase().toCharArray();
         char[] alphabet =strAlphabet.toCharArray();
         for(int i = 0; i < text.length; i++){
-            for (int j = 0; j < alphabet.length-1; j++){
+            for (int j = 0; j < alphabet.length; j++){
                 if (alphabet[j] == text[i]){
                     if (j+c < alphabet.length){
                         text[i] = alphabet[j+c];
